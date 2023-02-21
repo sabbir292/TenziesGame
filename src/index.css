@@ -119,3 +119,29 @@ body{
     font-weight: 800;
     margin-top: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+    body{
+        background: black;
+        overflow: hidden;
+    }
+    .main-container{
+        margin: 0;
+        height: 100vh;
+    }
+
+    .dice{
+        font-size: 2rem;
+        max-width: 3rem;
+        max-height: 3rem;
+    }
+    .rollBtn{
+        max-width: 7rem;
+        max-height: 3rem;
+        font-size: 1rem;
+    }
+    .clearAll{
+        max-width: 23rem;
+    }
+
+  }
